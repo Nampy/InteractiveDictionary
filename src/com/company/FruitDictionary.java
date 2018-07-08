@@ -19,7 +19,12 @@ public class FruitDictionary {
 
     // look up the fruits the user wants, if it doesn't exist return an error message
 
-    public void look(String fruitName){
-
+    public String look(String fruitName){
+        if(fruits.containsKey(fruitName)){
+            return fruits.get(fruitName);
+        }
+        else{
+            return "Can't find entry for " + fruitName;
+        }
     }
 }
