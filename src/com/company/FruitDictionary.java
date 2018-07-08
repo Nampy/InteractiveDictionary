@@ -1,11 +1,13 @@
+package com.company;
+
 import java.util.HashMap;
 
-public class Dictionary {
+public class FruitDictionary {
 
     // fruits with a description
     HashMap<String, String> fruits = new HashMap<>();
 
-    public Dictionary(){
+    public FruitDictionary(){
         // constructor to instantiate
     }
 
